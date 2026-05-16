@@ -1,0 +1,11 @@
+ article p{
+background-color: blue;
+color: aliceblue;
+padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+

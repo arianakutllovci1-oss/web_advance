@@ -38,3 +38,19 @@ p{
     color: blue;
 }
 
+#normalText{
+    font-style: normal;
+}
+
+#italicText{
+    font-style: italic;
+}
+
+#obliqueText{
+    font-style:oblique;
+}
+
+a{
+    color: red;
+}
+
