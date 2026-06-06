@@ -8,4 +8,52 @@ article > p{
     background: red;
 }
 
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background: orange;
+}
+
+
+a:hover{
+    color: red;
+    font-size: 22px;
+}
+
+input:focus{
+    background-color: bisque;
+    border: 2px solid blue;
+    outline: none;
+}
+
+p:first-child {
+    color: aqua;
+    font-weight: bold;
+}
+
+input:required{
+    border:2px solid orange
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: brown;
+}
+
+input:in-range{
+    background-color: aquamarine;
+}
+
+input:out-of-range{
+    background-color: pink;
+}
+
+
 
